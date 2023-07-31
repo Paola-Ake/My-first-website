@@ -1,0 +1,363 @@
+body{
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: -39px;
+    padding: 0;
+    background-color: #1a2840;
+    font-size: 22px;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+}
+
+header nav{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-weight: bolder;
+    height: 110px;
+}
+
+header nav .nav-left-section{
+    list-style: none;
+    display: flex;
+    font-size:23px;
+    height: auto;
+    margin-right:170px;
+    align-items: center;
+}
+header nav .nav-right-section{
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 70px;
+}
+
+nav .nav-right-section a{
+    color: white;
+    text-decoration: none;
+    margin-right: 35px;
+    font-weight: lighter;
+}
+
+nav .nav-left-section .logo{
+    background-image:url(../images/Saturno2.png);
+    width: 62px;
+    height: 62px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right:10px;
+}
+
+.principal{
+    text-align: left;
+}
+
+.contenido{
+    list-style: none;
+    align-items: center;
+    display: flex;
+    height: 476px;
+}
+.contenido h1{
+    color: white;
+    padding-right: 0px;
+    font-size: 55px;
+    margin-top: -20px;
+}
+.contenido p{
+    color: white;
+    font-size: 22px;
+    margin-top: -20px;
+    padding-right: 46px;
+}
+
+.imagen1{
+    width:50%;
+    margin-right: 570px;
+    margin-top: -30px;
+    position: relative;
+}
+
+.planets{
+    height: 92%;
+    position: absolute; 
+    right: 8%;
+    top: 17%;
+}
+
+.meteoro{
+    position: absolute;
+    top: 448%;
+    right: 12%;
+    height: 25%;
+}
+.seccion-galaxia{
+    background-color: white;
+    height: 605px;
+}
+
+.contenido1{
+    list-style: none;
+    display: flex;
+    padding-top: 100px;
+}
+
+.contenido1 img{
+    margin-right: 50px;
+}
+
+.titulo{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.titulo h2{
+    color: #1a2840;
+    font-size: 42px;
+    white-space: nowrap;
+}
+
+.titulo img{
+    width: 83%;
+    margin-left: 20px;
+}
+
+.texto1{
+padding-right: 120px;
+align-items: center;
+}
+
+.texto1 p{
+    margin-right: 50px;
+    padding-bottom: 30px;
+    color: #1a2840;
+}
+
+.texto1 button {
+    border-color: white;
+    padding-left: 325px;
+    padding-right: 325px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    background-color: #1a2840;
+
+}
+
+.texto1 button a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}
+
+.seccion-planetas{
+    height: 543px;
+    color: white;
+    background-image: url(../images/fondo1.png);
+}
+
+.contenido2 {
+    display: flex;
+    list-style: none;
+    padding-left: 80px;
+    padding-top: 130px;
+}
+
+.contenido2 h2{
+    font-size: 42px;
+    white-space: nowrap;
+    padding-right: 80px;
+    text-shadow:#0a1b37 10px 0 10px;
+}
+
+.contenido2 button{
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    border-color: #1a2840;
+    margin-top: 12px;
+    background-color: white;
+}
+
+.contenido2 button a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color:#1a2840;
+    position: relative;
+}
+
+.contenido2 p{
+    margin-top: 37px;
+    padding-right: 190px;
+    text-shadow:#0b1627 10px 10px 10px
+}
+
+.referencia img{
+    position: absolute;
+    top: 199%;
+    left: 3%;
+    height: 200%;
+}
+.seccion-estrellas{
+    background-color: #364764;
+    height: 600px;
+}
+
+.contenido3{
+    padding-top: 100px;
+    padding-left: 110px;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    color: white;
+}
+
+.contenido3 h2{
+    padding-top: 40px;
+    padding-right: 100px;
+    padding-left: 52px;
+    font-size: 42px;
+    white-space: nowrap;
+}
+
+.contenido3 p{
+width: 450px;
+padding-bottom: 30px;
+}
+.contenido3 img{
+    height: 90%;
+    padding: 40px;
+    position: relative;
+}
+
+.contenido3 button{
+    padding-left: 205px;
+    padding-right: 205px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    margin-right: 50px;
+    background-color: white;
+}
+
+.contenido3 button a{
+    text-decoration: none;
+    color:#1a2840;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.seccion-otros-cuerpos{
+    height: 450px;
+}
+
+.seccion-otros-cuerpos ul{
+    display: flex;
+    list-style: none;
+    align-items:center;
+    padding-top: 20px;
+}
+
+.seccion-otros-cuerpos ul img{
+    height:400px;
+}
+
+.recuadro{
+    background-color: white;
+    width: 500px;
+    margin-left: 55px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    color:#1a2840;
+    border-radius: 30px;
+}
+
+.recuadro h2{
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 40px;
+    white-space: nowrap;
+}
+
+.recuadro button{
+    margin-top: 4%;
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    background-color: #1a2840;
+}
+
+.recuadro button a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: black;
+    height: 108px;
+    color: white;
+    font-size: 15px;
+    margin-left: -50px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+}
+
+.logo2{
+    background-image:url(../images/Saturno2.png);
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self:flex-end;
+}
+.nombre {
+margin-left: 10px;
+margin-right: 55px;
+}
+
+.redes {
+    font-size: 10px;
+    align-items: center;
+}
+
+.redes h2{
+    text-align:center;
+    white-space: nowrap;
+    margin-right: 30px;
+}
+.redes img{
+    width: 50%;
+}
+
+footer ul p{
+    text-align: center;
+    padding-right: 72px;
+    padding-top: 20px;
+    font-size: 13px;
+}
+footer ul p a{
+    color: white;
+}

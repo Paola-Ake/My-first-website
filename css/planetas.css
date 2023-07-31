@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+    margin-left: 0px;
+    padding: 0;
+    font-size: 22px;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+}
+
+header nav{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-weight: bolder;
+    height: 110px;
+    margin-right: -68px;
+}
+
+header nav .nav-left-section{
+    list-style: none;
+    display: flex;
+    font-size:23px;
+    height: auto;
+    margin-right:170px;
+    align-items: center;
+}
+header nav .nav-right-section{
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 70px;
+}
+
+nav .nav-right-section a{
+    color: white;
+    text-decoration: none;
+    margin-right: 35px;
+    font-weight: lighter;
+}
+
+nav .nav-left-section .logo{
+    background-image:url(../images/Saturno2.png);
+    width: 65px;
+    height: 59px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right:10px;
+}
+
+.otroscuerpos{
+white-space: nowrap;
+}
+
+.principal{
+    height: 500px;
+    background-image: url(../images/planetasprincipal.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.principal h1{
+    font-size: 50px;
+    color: white;
+    position: relative;
+    top: 380px;
+}
+
+.que-es{
+    height: 480px;
+}
+
+.que-es h2, p{
+    text-align: center;
+margin-left: 100px;
+margin-right: 100px;
+color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.que-es h2{
+    font-weight: bold;
+    background-color: #0B0C0F;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 80px;
+}
+
+.que-es p{
+    background-color: #253249;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -30px;
+}
+
+.que-es img{
+    margin-left: 94px;
+    border-radius: 20px;
+    height: 148px;
+}
+
+.sistema-solar{
+    background-color: aqua;
+    height: 480px;
+}
+
+.sistema-solar ul li{
+    display: flex;
+}
+
+.sistema-solar ul 
+#mercuriotexto{
+    margin-right: 500px;
+    margin-left: -140px;
+    margin-top:80px;
+    background-color: #253249;
+}
+
+.sistema-solar img{
+    background-color: #0B0C0F;
+}

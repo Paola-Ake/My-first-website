@@ -1,0 +1,278 @@
+body{
+    margin: 0px;
+    margin-left: 0px;
+    padding: 0;
+    background-color: #1a2840;
+    font-size: 22px;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+}
+
+header nav{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-weight: bolder;
+    height: 110px;
+    margin-right: -68px;
+}
+
+header nav .nav-left-section{
+    list-style: none;
+    display: flex;
+    font-size:23px;
+    height: auto;
+    margin-right:170px;
+    align-items: center;
+}
+header nav .nav-right-section{
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 70px;
+}
+
+nav .nav-right-section a{
+    color: white;
+    text-decoration: none;
+    margin-right: 35px;
+    font-weight: lighter;
+}
+
+nav .nav-left-section .logo{
+    background-image:url(../images/Saturno2.png);
+    width: 65px;
+    height: 59px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right:10px;
+}
+
+.otroscuerpos{
+white-space: nowrap;
+}
+
+.principal{
+    text-align: center;
+    height: 476px;
+    background-image: url(../images/galaxiaprincipal.png);
+    background-repeat: no-repeat;
+}
+
+.principal h1{
+    font-size: 50px;
+    position: relative;
+    top: 380px;
+    color: white;
+}
+
+.que-es{
+    height: 564px;
+    background-image: url(../images/fondo1.png);
+}
+
+.que-es ul{
+    list-style: none;
+    display: flex;
+    color: white;
+}
+
+.texto1{
+    margin-top: 70px;
+    margin-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.texto1 h2{
+    font-size: 42px;
+    text-align: center;
+    background-color: #541675;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.texto1 p{
+    background-color:#541675;
+    color:white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.que-es ul li img{
+    border-radius: 100px;
+    margin-top: 120px;
+    margin-right: 60px;
+    padding: 20px;
+}
+
+.tipos{
+    background-color:white;
+    height: 590px;
+}
+
+.tipos ul{
+    display: flex;
+    list-style: none;
+    color: #1a2840;
+}
+
+.tipos ul li p{
+    margin-top: 90px;
+    margin-right: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: #1a2840;
+}
+.tipos ul li p:before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+border-style: solid;
+    border-color: transparent;
+    border-width: 20px 100px 20px 20px;
+    border-right-color:#1a2840;
+    top: 1360px;
+    right:690px;
+}
+
+.textoeimagen h2{
+    font-size: 42px;
+}
+.referencia{
+    margin-top: -30px;
+    height: 39%;
+    padding-left: 150px;
+    position: relative;
+}
+
+.tipos table{
+    margin-top: -150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color:white;
+    border-radius: 20px;
+}
+
+.fila1 th{
+    background-color: #541675;
+    padding-left: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+th, td{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.fila2{
+    height: 10px;
+}
+
+.fila3 p{
+    font-size: 15px;
+}
+
+.eliptica{
+    background-color:#2A4186;
+    width: 33%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.eliptica img{
+    width: 40%;
+    margin-left: 112px;
+}
+
+.espiral{
+    background-color:#2A4186;
+    width: 33%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.espiral img{
+    width: 40%;
+    margin-left: 120px;
+}
+
+.irregular{
+    background-color:#2A4186;
+    width: 33%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.irregular img{
+    width: 30%;
+    margin-left: 138px;
+}
+
+.fila3 td{
+    background-color:#2A4186;
+    font-weight: bolder;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.fila3 td p{
+    margin-top: 10px;
+}
+
+.estructura{
+    height: 590px;
+}
+
+.caracteristicas{
+    margin-left: 40px;
+    margin-right: 400px;
+    color: white;
+}
+
+.caracteristicas h2{
+    margin-left: 210px;
+    white-space: nowrap;
+}
+
+.caracteristicas h3{
+    background-color: #39174b;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.caracteristicas p{
+    background-color: #541675;
+    padding: 20px;
+    margin-top: -30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.caracteristicas img{
+    position: absolute;
+    right: 20px;
+    top: 1890px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-radius: 20px;
+    background-color:#541675;
+    width: 28%;
+}
+
+
